@@ -27,11 +27,12 @@
             }
         </style>
     </head>
-
-    <div class="container">
-        <img-comparison-slider tabindex="0" class="slider rendered">
-            <img slot="first" width="100%" src="New.png">
-            <img slot="second" width="100%" src="Old.png">
-        </img-comparison-slider>
-    </div>
+    <body>
+        <div class="container">
+            <img-comparison-slider class="slider">
+                <img alt="New" slot="first" src="New.png">
+                <img alt="Old" slot="second" src="Old.png">
+            </img-comparison-slider>
+        </div>
+    </body>
 </html>
