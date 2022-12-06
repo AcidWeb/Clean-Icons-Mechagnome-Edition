@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Clean Icons - Mechagnome Edition</title>
+        <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css">
+        <style>
+            body {
+                background-color: Silver;
+            }
+            .slider {
+                --divider-width: 5px;
+                --divider-color: Red;
+                --default-handle-opacity: 0;
+                box-shadow: 0px 0px 15px 5px Black;
+            }
+            .slider:focus {
+                outline: none;
+            }
+            .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+            }
+        </style>
+    </head>
+
+    <div class="container">
+        <img-comparison-slider tabindex="0" class="slider rendered">
+            <img slot="first" width="100%" src="New.png">
+            <img slot="second" width="100%" src="Old.png">
+        </img-comparison-slider>
+    </div>
+</html>
