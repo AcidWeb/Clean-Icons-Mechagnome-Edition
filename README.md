@@ -10,4 +10,4 @@ This repository is used as a distribution platform for `Clean Icons - Mechagnome
 
 Check https://www.wowinterface.com/downloads/info25064-CleanIcons-MechagnomeEdition for more details.
 
-**Current release:** 10.1.0.49407-V4-1
+**Current release:** 10.1.5.50401-V4-1
