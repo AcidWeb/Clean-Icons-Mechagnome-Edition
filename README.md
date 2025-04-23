@@ -1,6 +1,6 @@
 # Clean Icons - Mechagnome Edition
 
-[<img src="https://img.shields.io/github/downloads/AcidWeb/Clean-Icons-Mechagnome-Edition/latest/total">](https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition/releases/latest)
+[<img src="https://img.shields.io/github/downloads/AcidWeb/Clean-Icons-Mechagnome-Edition/latest/total">](https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition/releases/latest) [<img src="https://img.shields.io/github/downloads/AcidWeb/Clean-Icons-Mechagnome-Edition/total">](https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition/releases)
 
 This repository is used as a distribution platform for `Clean Icons - Mechagnome Edition` project.
 
