@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <title>Clean Icons - Mechagnome Edition</title>
-        <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css">
+        <script defer src="https://unpkg.com/img-comparison-slider@8/dist/index.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@8/dist/styles.css">
         <style>
             body {
                 background-color: Silver;
@@ -11,11 +11,11 @@
             .slider {
                 --divider-width: 5px;
                 --divider-color: Red;
-                --default-handle-opacity: 0;
                 box-shadow: 0px 0px 15px 5px Black;
             }
-            .slider:focus {
+            .slider:focus .custom-handle {
                 outline: none;
+                opacity: 0;
             }
             .container {
                 position: absolute;
@@ -32,6 +32,9 @@
             <img-comparison-slider class="slider">
                 <img alt="New" slot="first" src="New.png">
                 <img alt="Old" slot="second" src="Old.png">
+                <svg slot="handle" class="custom-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                    <path stroke="Red" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="Red" vector-effect="non-scaling-stroke"></path>
+                </svg>
             </img-comparison-slider>
         </div>
     </body>
